@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  word-break: break-all;
+    white-space: normal;
   font-family: "Darker Grotesque", sans-serif;
 }
 
@@ -473,7 +475,20 @@ button {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 600px) {
+
+
+  .card-card {
+    box-shadow: 2px 30px 60px rgba(32, 32, 32, 0.1);
+    border-radius: 16px;
+    padding: 1.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+  }
 
   .header{
     color: #27214d;
@@ -529,6 +544,21 @@ button {
 }
 
 @media screen and (max-width: 968px) {
+
+  .card-card .input-ctr input {
+    color: #27214d;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    outline: none;
+    padding: 0.5rem;
+    border: none;
+    color: #fff;
+    background-color: #fdd4ad;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
   .card-product-detail {
     box-shadow: 2px 30px 60px rgba(32, 32, 32, 0.1);
     border-radius: 16px;
@@ -542,7 +572,7 @@ button {
   }
   .main-ctr {
     width: 100%;
-    padding: 4rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -551,6 +581,7 @@ button {
   .product-detail-content {
     width: 100%;
     height: 100%;
+    padding:2rem 0;
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
