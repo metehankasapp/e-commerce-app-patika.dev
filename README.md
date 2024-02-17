@@ -19,7 +19,6 @@ https://github.com/metehankasapp/e-commerce-app-patika.dev
 ### Built with
 
 - React.js
-- 
 - Redux, redux-toolkit
 - Semantic HTML5 markup
 - CSS custom properties
